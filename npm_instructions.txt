@@ -1,0 +1,6 @@
+#install "react-router-dom" depencecies to work in router.
+    "npm install react-router-dom --save"
+
+#install react-bootstrap npm library
+    "npm install react-bootstrap --save"
+        

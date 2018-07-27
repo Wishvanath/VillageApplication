@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-
 class App extends Component {
   render() {
     return (
       <div>
-        
-      </div>
+        <h1>This is your APP page</h1>
+      </div>  
     );
   }
 }

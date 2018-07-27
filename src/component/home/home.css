@@ -1,0 +1,30 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* navbar section */
+.sitenav{
+  padding: 20px;
+  background:transparent;
+  /* border:none; */
+   
+}
+
+.btn-login{
+  border:1px solid black;
+  padding:10px 30px; 
+  border-radius: 3px;
+  
+}
+.site-slider{
+  margin: 0;
+  left: 0;
+  top:0;
+}
+.test{
+  height: 500px;
+  background-image: url('/public/img/site_logo.png');
+  background-repeat: no-repeat
+}
