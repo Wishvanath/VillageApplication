@@ -46,7 +46,7 @@ body, html {
 
 /* body first row section */
 .village_img img{
-  height: 450px;
+  width: 100%;
 }
 .app_head{
   padding: 15px 20px;
@@ -79,6 +79,7 @@ body, html {
   margin: 18px 0 0;
   margin: 36px 0px 0px 0px;
   color:#777777;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .getstarted_btn{
   height: 50px;
@@ -112,27 +113,173 @@ body, html {
   text-transform: uppercase;
   color: #0088cc;
   font-weight: 600;
+  margin-top:40px;
 }
 .family_descp{
-  font-size: 15px;
-  line-height: 1.75;
-  letter-spacing: 1.5px;
+  font-size: 16px;
   margin: 10px 5px 10px;
   color:#777777;
   padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .family_image{
   text-align: center;
 }
 .family_image img{
   margin-top: 30px;
-  width: 800px;
+  width: 100%;
 }
 
 .family_body{
   background-color:#f6f6f6;
-  padding: 20px;
+  
 }
+.site_features{
+  padding:100px 15px;
+}
+.app_image img{
+  width: 100%;
+  border-radius: 5px;
+}
+.app_image{
+  box-shadow: 2px 20px 15px rgba(152, 138, 138, 230)
+}
+.app_body{
+  padding: 20px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #777777;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.app_heading h3{
+  color:#303133;
+  font-weight: 600;
+}
+.app_descp{
+  padding: 10px;
+}
+
+.secondrow{
+  padding: 80px 15px;
+}
+
+.app_header{
+  text-transform: uppercase;
+  color: #0088cc;
+  padding: 5px;
+  border:2px solid #0088cc;
+  text-align: center;
+  margin-top: -80px;
+  width: 80%;
+  border-radius: 3px;
+}
+.app_header h3{
+  font-weight: 700px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.app_middle{
+  text-align:center;
+}
+
+.fooslider{
+  margin-top:30px;
+  background-color:#4d6672;;
+  box-shadow: 2px 12px 20px rgb(128, 114, 114);
+  margin-bottom: 100px;
+}
+.fooslider img{
+  width: 30%;
+  /* border: 1px solid white; */
+  /* padding: 10px; */
+}
+.carousel-caption{
+  color:#e6ecef;
+  text-shadow: none;
+  font-size: 18px;
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.slider_descp{
+  text-align: left;
+}
+.slider_descp h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.slider_body{
+  height: 250px;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
