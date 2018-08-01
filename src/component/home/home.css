@@ -47,6 +47,7 @@ body, html {
 /* body first row section */
 .village_img img{
   width: 100%;
+  margin-top: 30px;
 }
 .app_head{
   padding: 15px 20px;
@@ -66,11 +67,10 @@ body, html {
 .village_util h1{
   color: #3d91cd;
   font-weight: bold;
-  font-family: 'PT Serif', serif;
   letter-spacing: 1.2px;
-  font-size: 32px;
-  line-height: 50px;
-  margin-bottom: -30px;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: -25px;
 }
 .village_content{
   margin-top: -20px;
@@ -78,7 +78,7 @@ body, html {
   line-height: 1.75;
   margin: 18px 0 0;
   margin: 36px 0px 0px 0px;
-  color:#777777;
+  color:#605237;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .getstarted_btn{
@@ -114,20 +114,23 @@ body, html {
   color: #0088cc;
   font-weight: 600;
   margin-top:40px;
+  margin-bottom: 20px;
 }
 .family_descp{
   font-size: 16px;
-  margin: 10px 5px 10px;
-  color:#777777;
+  color:#605237;
   padding: 10px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 20px;
 }
 .family_image{
   text-align: center;
 }
 .family_image img{
-  margin-top: 30px;
-  width: 100%;
+  margin-top: 10px;
+  width: 80%;
+  opacity: 0.8;
+  margin-bottom: 40px;
 }
 
 .family_body{
@@ -135,7 +138,7 @@ body, html {
   
 }
 .site_features{
-  padding:100px 15px;
+  padding:20px 15px;
 }
 .app_image img{
   width: 100%;
@@ -149,11 +152,11 @@ body, html {
   text-align: left;
   font-size: 16px;
   line-height: 1.75;
-  color: #777777;
+  color: #605237;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .app_heading h3{
-  color:#303133;
+  color:#363636;
   font-weight: 600;
 }
 .app_descp{
@@ -164,33 +167,14 @@ body, html {
   padding: 80px 15px;
 }
 
-.app_header{
-  text-transform: uppercase;
-  color: #0088cc;
-  padding: 5px;
-  border:2px solid #0088cc;
-  text-align: center;
-  margin-top: -80px;
-  width: 80%;
-  border-radius: 3px;
-}
-.app_header h3{
-  font-weight: 700px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-.app_middle{
-  text-align:center;
-}
-
 .fooslider{
   margin-top:30px;
-  background-color:#4d6672;;
+  background-color:#214e40;
   box-shadow: 2px 12px 20px rgb(128, 114, 114);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .fooslider img{
-  width: 30%;
+  width: 40%;
   /* border: 1px solid white; */
   /* padding: 10px; */
 }
@@ -203,6 +187,7 @@ body, html {
   right: 0;
   bottom: 0;
   left: 0;
+  width: 90%;
 }
 .slider_descp{
   text-align: left;
@@ -211,20 +196,79 @@ body, html {
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+  color:#ffdb79;
 }
 .slider_body{
   height: 250px;
-  padding: 30px;
+  padding: 25px;
 }
-
-
-
-
-
-
-
-
+.dashboard_heading h3{
+  text-transform: uppercase;
+  color: #0088cc;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.resource_heading h3{
+  text-transform: uppercase;
+  color: #0088cc;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* get started body section */
+.getstartedbody{
+  background-color: #f6f6f6;
+}
+.getstarted_header h3{
+  text-transform: uppercase;
+  color: #0088cc;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.getstarted_header p{
+  font-size: 17px;
+  text-align: center;
+  margin-top: -20px;
+  line-height: 1.75;
+  color: #999c9c;
+  letter-spacing: 0.9px;
+}
+.txtinput{
+  height: 42px;
+  box-shadow: none;
+  background-color: white;
+  font-size: 15px;
+}
+.signupbody{
+  padding: 30px;
+  margin-bottom: 40px;
+}
+.getsignup_btn{
+  height: 42px;
+  width: 100%;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #0088cc;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.getsignup_btn:hover{
+  background-color:#209ad6;
+  color: white;
+  border: 1px solid #0088cc;
+  cursor: pointer;
+}
 
 
 

@@ -39,7 +39,7 @@ class Homepage extends Component {
                 <NavItem eventKey={1} href="#features">
                   <span>Features</span>
                 </NavItem>
-                <NavItem eventKey={2} href="#">
+                <NavItem eventKey={2} href="#pricing">
                   <span>Pricing</span>
                 </NavItem>
                 <NavItem eventKey={3} href="#">
@@ -58,7 +58,7 @@ class Homepage extends Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-md-6 col-lg-6 village_img">
-              <img src="image/villageapp_banner.png" alt="Banner"/>
+              <img src="image/village.png" alt="Banner"/>
             </div>
             <div className="col-sm-6 col-md-6 col-lg-6 app_head">
               <h2>Village <span className="app">App</span></h2>
@@ -73,7 +73,9 @@ class Homepage extends Component {
                 </p>
               </div>
               <div className="getstarted">
-                <button className="getstarted_btn"><span>Get Started Now >></span></button>
+                <a href="#getstartedbody">
+                 <button className="getstarted_btn"><span>Get Started Now >></span></button>
+                </a>
               </div>
             </div>
           </div>
@@ -82,34 +84,37 @@ class Homepage extends Component {
 
         {/* family body section */}
         <div className="family_body">
+        <div className="container">
           <div className="row">
-                <div className="family_heading">
+               <div className="family_heading">
                   <h3>Hierarchy of Family</h3>
-                </div>
-            <div className="col-sm-1 col-md-1 col-lg-1"></div>
-            <div className="col-sm-10 col-md-10 col-lg-10 family_descp">
-             <p>
-              The application serves enumeration of the population and households in the country. Data collection and production of information is helpful for government ministries and local authorities, for budgeting purposes.Collection of socio-economic information on a large sample of people in the population, which makes it possible to acquire data and information on small, unique groups in the population and production of information which serves bodies, organizations and various other elements in the fields of education, the economy, business, research, etc.
+               </div>
+            <div className="col-sm-6 col-md-6 family_descp">
+              <p>
+                The application serves enumeration of the population and households in the country. Data collection and production of information is helpful for government ministries and local authorities, for budgeting purposes.Collection of socio-economic information on a large sample of people in the population, which makes it possible to acquire data and information on small, unique groups in the population and production of information which serves bodies, organizations and various other elements in the fields of education, the economy, business, research, etc.
               </p>
-              <div className="family_image">
-                  <img src="image/hfamily.png" alt="Family" style={{height:'400px'}}/>
-                </div>
             </div>
-            <div className="col-sm-1 col-md-1 col-lg-1"></div>
+            <div className="col-sm-6 col-md-6 family_image">
+               <img src="image/familyvector.png" alt="Family"/>
+            </div>
           </div>
         </div>
+        </div>   
         {/* end of family body section */}  
       
         {/* start of features section */}
         <div className="site_features" id="features">
          <div className="container">
            <div className="row first_row">
-             <div className="col-sm-6">
+              <div className="dashboard_heading">
+                  <h3>Application Dashboard</h3>
+              </div>
+             <div className="col-sm-6 col-md-6 col-lg-6">
               <div className="app_image">
                 <img src="image/app1.png" alt="Dashboard"/>
               </div>
              </div>
-             <div className="col-sm-6 app_body">
+             <div className="col-sm-6 col-md-6 col-lg-6 app_body">
                 <div className="app_heading">
                   <h3>Heading</h3>
                 </div>
@@ -130,7 +135,7 @@ class Homepage extends Component {
            </div>
             {/*end of first row section  */}
            <div className="row secondrow">
-             <div className="col-sm-6 app_body">
+             <div className="col-sm-6 col-md-6 col-lg-6 app_body">
                 <div className="app_heading">
                   <h3>Heading</h3>
                 </div>
@@ -148,7 +153,7 @@ class Homepage extends Component {
                   </p>
                 </div>
              </div>
-             <div className="col-sm-6">
+             <div className="col-sm-6 col-md-6 col-lg-6">
               <div className="app_image">
                 <img src="image/app1.png" alt="Dashboard"/>
               </div>
@@ -163,23 +168,16 @@ class Homepage extends Component {
         {/* start of slider sub features section */}
         <div className="container">
         <div className="row">
-          <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 "></div>
-          <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 app_middle">
-          <div className="app_header">
-            <h3>How do we serve you.?</h3>
-          </div>
-          </div>
-          <div className="col-xs-3 col-sm-3 col-md-3 col-lg-3 "></div>
-        </div>
-
-        <div className="row">
+              <div className="resource_heading">
+                  <h3>How do we serve you ..?</h3>
+               </div>
         <Carousel className="fooslider">
         {/* first slider item */}
           <Carousel.Item>
             <Carousel.Caption>
               <div className="row slider_body">
                 <div className=" col-xs-6 col-sm-6 col-md-6 col-lg-6 slider_image">
-                    <img src="image/waterdrop.png" alt="Water droplet"/>
+                    <img src="image/water.png" alt="Water droplet"/>
                 </div>
                 <div className=" col-xs-6 col-sm-6 col-md-6 col-lg-6 slider_descp">
                   <h3>Source Of water</h3>
@@ -368,6 +366,131 @@ class Homepage extends Component {
         </div>
         {/* end of slider sub features section */}
 
+
+
+
+        {/* get started section */}
+        <div className="getstartedbody" id="getstartedbody">
+        <div className="container">
+          <div className="getstarted_header">
+            <h3>Village App is built for business of all sizes</h3>
+            <p>
+              Please fill in the following details to get started.
+            </p>
+          </div>
+          <div className="row signupbody">
+            <form>
+              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Name" 
+                  required
+                  maxlength ="30"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,30}$"
+                  />
+                </div>
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Phone Number"
+                  pattern="[7|8|9][0-9]{9}"
+                  required
+                  maxlength="10"
+                  />
+                </div>
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Company Name"
+                  maxlength ="50"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,50}$"
+                  required
+                  />
+                </div> 
+                <div className="form-group">
+                  <select class="form-control txtinput" id="sel1" required>
+                    <option value="">Select State</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Secunderabad">Secunderabad</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Kolkata">Kolkata</option>
+                    <option value="Jharkhand">Jharkhand</option> 
+                  </select>
+                </div>
+                <div className="form-group">
+                  <select class="form-control txtinput" id="sel2" required>
+                    <option value="">Select Village</option>
+                    <option value="Village1">Village1</option>
+                    <option value="Village2">Village2</option>
+                    <option value="Village3">Village3</option>
+                  </select>
+                </div>
+              </div>
+              
+              <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Designation"
+                  maxlength ="50"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,50}$"
+                  required
+                  />
+                </div>
+                <div className="form-group">
+                  <input 
+                  type="email" 
+                  className="form-control txtinput" 
+                  placeholder="Email"
+                  maxlength="50"
+                  required
+                  />
+                </div>
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Company Website"
+                  maxlength="50"
+                  required
+                  />
+                </div>
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Your Industry"
+                  maxlength ="50"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,50}$"
+                  required
+                  />
+                </div>
+                <div className="form-group">
+                  <select class="form-control txtinput" id="sel3" required>
+                    <option value="">Select Taluka</option>
+                    <option value="Taluka1">Taluka1</option>
+                    <option value="Taluka2">Taluka2</option>
+                    <option value="Taluka3">Taluka3</option>
+                  </select>
+                </div>
+              </div>
+              <div className="row btn_panel">
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                  <button className="getsignup_btn">Get Started</button>
+                </div>
+                <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+              </div>
+            </form>
+          </div>
+        </div>  
+        </div>
+        {/* end of get started section */}
 
 
         
