@@ -220,7 +220,7 @@ body, html {
 }
 /* get started body section */
 .getstartedbody{
-  background-color: #f6f6f6;
+  background-color:white;
 }
 .getstarted_header h3{
   text-transform: uppercase;
@@ -269,36 +269,92 @@ body, html {
   border: 1px solid #0088cc;
   cursor: pointer;
 }
-
+.price_card3,
 .price_card1{
-  height: 300px;
-  border: 1px solid #0f5969;
-  box-shadow: 1px 10px 10px #134860;
+  /* height: 300px; */
+  border: 1px solid #babebf;
+  box-shadow: 1px 10px 10px #58676e;
   margin-top: 50px;  
+  text-align: center;
+  padding: initial;
+  border-radius: initial;
 }
 .price_card2{
-  border: 1px solid #0f5969;
-  height: 400px;
-  background:white;
-  border-radius: none;
-  padding: 40px;
-  box-shadow: 1px 10px 10px #134860;
+  border: 1px solid #babebf;
+  box-shadow: 1px 10px 10px #58676e;
+  text-align: center;
+  padding: initial;
+  border-radius: initial;
 }
 .app_price{
-  background-color: #3d91cd;
-  color: white;
-  padding: 80px;
+  background-color: #f6f6f6;
+  padding: 40px;
+  text-align: center;
 }
 
+.pricing_heading h3{
+  text-transform: uppercase;
+  color:#0088cc;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.pricing_heading p{
+  font-size: 17px;
+  text-align: center;
+  line-height: 1.75;
+  letter-spacing: 0.9px;
+  color:black;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.thumb_head{
+  text-align: center;
+  padding: 15px 0px 0px;
+  text-transform: uppercase;
+}
+.thumb_head h6{
+  font-size: 15px;
+  font-weight: bold;
+}
+.thumb_foo{
+  background-color:#605237;
+  padding: 12px;
+  margin-top:-17px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: -1px;
+}
 
+.thubm_body{
+  padding: 20px;
+}
 
-
-
-
-
-
-
-
+.village_util_btn{
+  border-right: 1px solid white;
+}
+.village_util_btn:hover{
+  cursor: pointer;
+  color: white;
+}
+.village_analytics_btn:hover{
+  color: white;
+  cursor: pointer;
+}
+.thubm_body h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.thubm_body p{
+  font-size: 16px;
+  line-height: 1.75;
+  color: #605237;
+}
+/* footer section */
+.footer{
+  background:#1b1d1f;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
 
 
 

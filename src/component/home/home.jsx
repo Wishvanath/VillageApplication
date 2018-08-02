@@ -16,6 +16,55 @@ class Homepage extends Component {
     
   }// end of constructor
 
+// define the auto hide and show the state village and taluka div section 
+funstateutil(e){
+  e.preventDefault();
+  var showbody = document.getElementById("stateutil");
+  var hidebody = document.getElementById("stateana");
+  showbody.style.display = "block";
+  hidebody.style.display = "none";
+}
+funstateana(e){
+  e.preventDefault();
+  var showbody = document.getElementById("stateana");
+  var hidebody = document.getElementById("stateutil");
+  showbody.style.display = "block";
+  hidebody.style.display = "none";
+}
+funDisUtil(e){
+  e.preventDefault();
+  var showbody = document.getElementById("distutil");
+  var hidebody = document.getElementById("distana");
+  showbody.style.display= "block";
+  hidebody.style.display= "none";
+}
+funDistana(e){
+  e.preventDefault();
+  var showbody = document.getElementById("distana");
+  var hidebody = document.getElementById("distutil");
+  showbody.style.display = "block";
+  hidebody.style.display = "none";
+}
+funtalukana(e){
+  e.preventDefault();
+  var showbody = document.getElementById("talukana");
+  var hidebody = document.getElementById("talukautil");
+  showbody.style.display = "block";
+  hidebody.style.display = "none";
+}
+funtalukautil(e){
+  e.preventDefault();
+  var showbody = document.getElementById("talukautil");
+  var hidebody = document.getElementById("talukana");
+  showbody.style.display = "block";
+  hidebody.style.display = "none";
+}
+
+
+
+
+
+// end of auto hide and show div section
 
   render() {
     
@@ -367,25 +416,122 @@ class Homepage extends Component {
         {/* end of slider sub features section */}
 
         {/* start of application pricing section */}
-        <div className="app_price">
+        <div className="app_price" id="pricing">
           <div className="container">
             <div className="row">
               <div className="col-md-1"></div>
               <div className="col-md-10">
+                <div className="pricing_heading">
+                 <h3>
+                 <i className="fa fa-usd">Pricing</i>
+                 </h3>
+                 <p>Choose a Plane that fits your business</p>
+                </div>
                 <div className="row">
-                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div className="col-sm-4 col-md-4 col-lg-4">
                       <div className="thumbnail price_card1">
-                      
+                        <div className="thumb_head">
+                          <h6>State </h6>
+                        </div>
+                        <hr/>
+                        <div className="thubm_body" id="stateutil">
+                            <h1>
+                            $21.90
+                            </h1>
+                            <p>
+                            It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                        <div className="thubm_body" id="stateana" style={{display:'none'}}>
+                            <h1>
+                            $25.90 
+                            </h1>
+                            <p>
+                            It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                        <hr/>
+                        <div className="thumb_foo">
+                          <div className="row">
+                            <div className="col-sm-6 village_util_btn">
+                              <p onClick={this.funstateutil.bind(this)}>State Utilities</p>
+                            </div>
+                            <div className="col-sm-6 village_analytics_btn">
+                              <p onClick={this.funstateana.bind(this)}>State Analytics</p>
+                            </div>
+                          </div>
+                        </div>
+                        
                       </div>
                     </div>
-                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div className="col-sm-4 col-md-4 col-lg-4">
                       <div className="thumbnail price_card2">
-                      
+                        <div className="thumb_head">
+                          <h6>District </h6>
+                        </div>
+                        <hr/>
+                        <div className="thubm_body" id="distutil">
+                            <h1>
+                            $21.90
+                            </h1>
+                            <p>
+                            It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                        <div className="thubm_body" id="distana" style={{display:'none'}}>
+                            <h1>
+                            $25.90
+                            </h1>
+                            <p>
+                            It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                        <hr/>
+                        <div className="thumb_foo">
+                          <div className="row">
+                            <div className="col-sm-6 village_util_btn">
+                              <p onClick={this.funDisUtil.bind(this)}>District Utilities</p>
+                            </div>
+                            <div className="col-sm-6 village_analytics_btn">
+                              <p onClick={this.funDistana.bind(this)}>District Analytics</p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div className="col-sm-4 col-md-4 col-lg-4">
                       <div className="thumbnail price_card3">
-                      
+                        <div className="thumb_head">
+                          <h6>Taluka </h6>
+                        </div>
+                        <hr/>
+                        <div className="thubm_body" id="talukautil">
+                            <h1>
+                            $21.90
+                            </h1>
+                            <p>
+                            It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                        <div className="thubm_body" id="talukana" style={{display:'none'}}>
+                            <h1>
+                            $25.90
+                            </h1>
+                            <p>
+                            It is a long established fact that a reader will be distracted by the readable content
+                            </p>
+                        </div>
+                        <hr/>
+                        <div className="thumb_foo">
+                          <div className="row">
+                            <div className="col-sm-6 village_util_btn">
+                              <p onClick={this.funtalukautil.bind(this)}>Taluka Utilities</p>
+                            </div>
+                            <div className="col-sm-6 village_analytics_btn">
+                              <p onClick={this.funtalukana.bind(this)}>Taluka Analytics</p>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                 </div>
@@ -451,10 +597,10 @@ class Homepage extends Component {
                 </div>
                 <div className="form-group">
                   <select class="form-control txtinput" id="sel2" required>
-                    <option value="">Select Village</option>
-                    <option value="Village1">Village1</option>
-                    <option value="Village2">Village2</option>
-                    <option value="Village3">Village3</option>
+                    <option value="">Select District</option>
+                    <option value="District1">District1</option>
+                    <option value="District2">District2</option>
+                    <option value="District3">District3</option>
                   </select>
                 </div>
                 <div className="form-group">
@@ -537,6 +683,22 @@ class Homepage extends Component {
         </div>  
         </div>
         {/* end of get started section */}
+
+        {/* start of fotter section */}
+        <div className="footer">
+          <div className="container">
+            <div className="row">
+              <p>
+              © 2018 Skymap Global. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div> 
+        {/* end of footer section */}
+
+
+
+
 
 
         
