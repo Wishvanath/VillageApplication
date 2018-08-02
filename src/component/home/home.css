@@ -239,10 +239,10 @@ body, html {
   letter-spacing: 0.9px;
 }
 .txtinput{
-  height: 42px;
+  height: 40px;
   box-shadow: none;
   background-color: white;
-  font-size: 15px;
+  font-size: 14px;
 }
 .signupbody{
   padding: 30px;
@@ -270,9 +270,25 @@ body, html {
   cursor: pointer;
 }
 
-
-
-
+.price_card1{
+  height: 300px;
+  border: 1px solid #0f5969;
+  box-shadow: 1px 10px 10px #134860;
+  margin-top: 50px;  
+}
+.price_card2{
+  border: 1px solid #0f5969;
+  height: 400px;
+  background:white;
+  border-radius: none;
+  padding: 40px;
+  box-shadow: 1px 10px 10px #134860;
+}
+.app_price{
+  background-color: #3d91cd;
+  color: white;
+  padding: 80px;
+}
 
 
 

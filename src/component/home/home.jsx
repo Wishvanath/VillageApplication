@@ -366,7 +366,35 @@ class Homepage extends Component {
         </div>
         {/* end of slider sub features section */}
 
-
+        {/* start of application pricing section */}
+        <div className="app_price">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-1"></div>
+              <div className="col-md-10">
+                <div className="row">
+                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div className="thumbnail price_card1">
+                      
+                      </div>
+                    </div>
+                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div className="thumbnail price_card2">
+                      
+                      </div>
+                    </div>
+                    <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                      <div className="thumbnail price_card3">
+                      
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div className="col-md-1"></div>
+            </div>
+          </div>
+        </div>
+        {/* end of application pricing section */}
 
 
         {/* get started section */}
@@ -429,6 +457,15 @@ class Homepage extends Component {
                     <option value="Village3">Village3</option>
                   </select>
                 </div>
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Choose Password" 
+                  maxLength="20" 
+                  required
+                  />
+                </div>
               </div>
               
               <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -477,6 +514,15 @@ class Homepage extends Component {
                     <option value="Taluka2">Taluka2</option>
                     <option value="Taluka3">Taluka3</option>
                   </select>
+                </div>
+                <div className="form-group">
+                  <input 
+                  type="text" 
+                  className="form-control txtinput" 
+                  placeholder="Confirm Password" 
+                  maxLength="20" 
+                  required
+                  />
                 </div>
               </div>
               <div className="row btn_panel">
