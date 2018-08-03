@@ -103,7 +103,24 @@ funtalukautil(e){
 
         {/* end of site navbar  */}
 
-        {/* start body intro section */}
+        {/* start of bodyintro section */}
+        <div className="appbody">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-8 col-md-8 col-lg-8 village_body">
+                <h1>Village Application</h1>
+                <h4>
+                  The Simplest Way To Manage Your Village Utilities.
+                </h4>
+              </div>
+              <div className="col-sm-4 col-md-4 col-lg-4"></div>
+            </div>
+          </div>
+        </div>
+
+        {/* end of bodyintro section */}
+
+        {/* start village utilities section */}
         <div className="container">
           <div className="row">
             <div className="col-sm-6 col-md-6 col-lg-6 village_img">
@@ -129,7 +146,7 @@ funtalukautil(e){
             </div>
           </div>
         </div>
-        {/* end of body intro section */}
+        {/* end of village utilities section */}
 
         {/* family body section */}
         <div className="family_body">
