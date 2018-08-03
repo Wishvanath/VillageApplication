@@ -49,26 +49,17 @@ body, html {
   width: 100%;
   margin-top: 30px;
 }
-.app_head{
-  padding: 15px 20px;
-}
-
-.app_head h2{
-  color: #129bd7;
-  font-weight: bold;
- 
-}
-.app_head .app{
-  color:#939597;
-}
-
-.village_util h1{
+.villageutil h3{
   color: #3d91cd;
   font-weight: bold;
   letter-spacing: 1.2px;
   font-size: 25px;
   line-height: 40px;
   margin-bottom: -25px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 45px;
+  margin-bottom: 20px;
 }
 .village_content{
   margin-top: -20px;

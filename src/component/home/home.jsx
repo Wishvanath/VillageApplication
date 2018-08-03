@@ -128,16 +128,13 @@ funtalukautil(e){
         {/* start village utilities section */}
         <div className="container">
           <div className="row">
+            <div className="villageutil">
+              <h3>Village Utilities</h3>
+            </div>
             <div className="col-sm-6 col-md-6 col-lg-6 village_img">
               <img src="image/village.png" alt="Banner"/>
             </div>
-            <div className="col-sm-6 col-md-6 col-lg-6 app_head">
-              <h2>Village <span className="app">App</span></h2>
-              <div className="village_util">
-                <h1>
-                  The Simplest Way To Manage Your Village Utilities.
-                </h1>
-              </div>
+            <div className="col-sm-6 col-md-6 col-lg-6">
               <div className="village_content">
                 <p>
                 Village Utilities the is best source of data collection for facilities that are said to deliver important primary services in the everyday lives of villagers, allowing them to shop for groceries, take their children to school, and engage in leisure activities and many more within the village.
@@ -236,7 +233,7 @@ funtalukautil(e){
         <div className="container">
         <div className="row">
               <div className="resource_heading">
-                  <h3>How do we serve you ..?</h3>
+                  <h3>How do we serve you ?</h3>
                </div>
         <Carousel className="fooslider">
         {/* first slider item */}
