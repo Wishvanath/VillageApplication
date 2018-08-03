@@ -110,8 +110,13 @@ funtalukautil(e){
               <div className="col-sm-8 col-md-8 col-lg-8 village_body">
                 <h1>Village Application</h1>
                 <h4>
-                  The Simplest Way To Manage Your Village Utilities.
+                  The Simplest Way To Manage Your Village Utilities.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </h4>
+                <div className="getstarted">
+                <a href="#getstartedbody">
+                 <button className="getstarted_btn"><span>Get Started Now >></span></button>
+                </a>
+              </div>
               </div>
               <div className="col-sm-4 col-md-4 col-lg-4"></div>
             </div>
@@ -138,11 +143,7 @@ funtalukautil(e){
                 Village Utilities the is best source of data collection for facilities that are said to deliver important primary services in the everyday lives of villagers, allowing them to shop for groceries, take their children to school, and engage in leisure activities and many more within the village.
                 </p>
               </div>
-              <div className="getstarted">
-                <a href="#getstartedbody">
-                 <button className="getstarted_btn"><span>Get Started Now >></span></button>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
