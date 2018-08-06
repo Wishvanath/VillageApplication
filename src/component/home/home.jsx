@@ -175,7 +175,7 @@ funtalukautil(e){
               </div>
              <div className="col-sm-6 col-md-6 col-lg-6">
               <div className="app_image">
-                <img src="image/app1.png" alt="Dashboard"/>
+                <img src="image/appdash.png" alt="Dashboard"/>
               </div>
              </div>
              <div className="col-sm-6 col-md-6 col-lg-6 app_body">
@@ -219,7 +219,7 @@ funtalukautil(e){
              </div>
              <div className="col-sm-6 col-md-6 col-lg-6">
               <div className="app_image">
-                <img src="image/app1.png" alt="Dashboard"/>
+                <img src="image/appdash.png" alt="Dashboard"/>
               </div>
              </div>
            </div> 
@@ -620,7 +620,7 @@ funtalukautil(e){
                 </div>
                 <div className="form-group">
                   <input 
-                  type="text" 
+                  type="password" 
                   className="form-control txtinput" 
                   placeholder="Choose Password" 
                   maxLength="20" 
@@ -678,7 +678,7 @@ funtalukautil(e){
                 </div>
                 <div className="form-group">
                   <input 
-                  type="text" 
+                  type="password" 
                   className="form-control txtinput" 
                   placeholder="Confirm Password" 
                   maxLength="20" 
