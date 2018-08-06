@@ -115,7 +115,7 @@ funtalukautil(e){
                 <NavItem eventKey={2} href="#pricing">
                   <span>Pricing</span>
                 </NavItem>
-                <NavItem eventKey={3} href="#">
+                <NavItem eventKey={3} href="/login">
                   <span className="btn-login">Login</span>
                 </NavItem>
                 <NavItem eventKey={4} href="#">
@@ -132,7 +132,7 @@ funtalukautil(e){
           <div className="container">
             <div className="row">
               <div className="col-sm-8 col-md-8 col-lg-8 village_body">
-                <h1>Village Application</h1>
+                <h1>Village Trekk</h1>
                 <h4>
                   The Simplest Way To Manage Your Village Utilities.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </h4>
@@ -619,8 +619,8 @@ funtalukautil(e){
                   type="text" 
                   className="form-control txtinput" 
                   placeholder="Company Name"
-                  maxlength ="50"
-                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,50}$"
+                  maxlength ="30"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,30}$"
                   required
                   />
                 </div> 
@@ -659,8 +659,8 @@ funtalukautil(e){
                   type="text" 
                   className="form-control txtinput" 
                   placeholder="Designation"
-                  maxlength ="50"
-                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,50}$"
+                  maxlength ="30"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,30}$"
                   required
                   />
                 </div>
@@ -669,7 +669,7 @@ funtalukautil(e){
                   type="email" 
                   className="form-control txtinput" 
                   placeholder="Email"
-                  maxlength="50"
+                  maxlength="30"
                   required
                   />
                 </div>
@@ -678,7 +678,7 @@ funtalukautil(e){
                   type="text" 
                   className="form-control txtinput" 
                   placeholder="Company Website"
-                  maxlength="50"
+                  maxlength="30"
                   required
                   />
                 </div>
@@ -687,8 +687,8 @@ funtalukautil(e){
                   type="text" 
                   className="form-control txtinput" 
                   placeholder="Your Industry"
-                  maxlength ="50"
-                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,50}$"
+                  maxlength ="30"
+                  pattern="^[a-zA-Z][a-zA-Z- _\.]{1,30}$"
                   required
                   />
                 </div>
