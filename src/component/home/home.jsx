@@ -23,6 +23,10 @@ funstateutil(e){
   var hidebody = document.getElementById("stateana");
   showbody.style.display = "block";
   hidebody.style.display = "none";
+  var pacolor = document.getElementById("stateactive");
+  pacolor.style.color = "white";
+  var picolor = document.getElementById("stateinactive");
+  picolor.style.color = "black";
 }
 funstateana(e){
   e.preventDefault();
@@ -30,6 +34,10 @@ funstateana(e){
   var hidebody = document.getElementById("stateutil");
   showbody.style.display = "block";
   hidebody.style.display = "none";
+  var pacolor = document.getElementById("stateactive");
+  pacolor.style.color = "black";
+  var picolor = document.getElementById("stateinactive");
+  picolor.style.color = "white";
 }
 funDisUtil(e){
   e.preventDefault();
@@ -37,6 +45,10 @@ funDisUtil(e){
   var hidebody = document.getElementById("distana");
   showbody.style.display= "block";
   hidebody.style.display= "none";
+  var pacolor = document.getElementById("distactive");
+  pacolor.style.color = "white";
+  var picolor = document.getElementById("distinactive");
+  picolor.style.color = "black";
 }
 funDistana(e){
   e.preventDefault();
@@ -44,6 +56,10 @@ funDistana(e){
   var hidebody = document.getElementById("distutil");
   showbody.style.display = "block";
   hidebody.style.display = "none";
+  var pacolor = document.getElementById("distactive");
+  pacolor.style.color = "black";
+  var picolor = document.getElementById("distinactive");
+  picolor.style.color = "white";
 }
 funtalukana(e){
   e.preventDefault();
@@ -51,6 +67,10 @@ funtalukana(e){
   var hidebody = document.getElementById("talukautil");
   showbody.style.display = "block";
   hidebody.style.display = "none";
+  var pacolor = document.getElementById("talukactive");
+  pacolor.style.color = "black";
+  var picolor = document.getElementById("talukinactive");
+  picolor.style.color = "white";
 }
 funtalukautil(e){
   e.preventDefault();
@@ -58,6 +78,10 @@ funtalukautil(e){
   var hidebody = document.getElementById("talukana");
   showbody.style.display = "block";
   hidebody.style.display = "none";
+  var pacolor = document.getElementById("talukactive");
+  pacolor.style.color = "white";
+  var picolor = document.getElementById("talukinactive");
+  picolor.style.color = "black";
 }
 
 
@@ -469,10 +493,10 @@ funtalukautil(e){
                         <div className="thumb_foo">
                           <div className="row">
                             <div className="col-sm-6 village_util_btn">
-                              <p onClick={this.funstateutil.bind(this)}>State Utilities</p>
+                              <p id="stateactive" onClick={this.funstateutil.bind(this)}>State Utilities</p>
                             </div>
                             <div className="col-sm-6 village_analytics_btn">
-                              <p onClick={this.funstateana.bind(this)}>State Analytics</p>
+                              <p id = "stateinactive" onClick={this.funstateana.bind(this)}>State Analytics</p>
                             </div>
                           </div>
                         </div>
@@ -505,10 +529,10 @@ funtalukautil(e){
                         <div className="thumb_foo">
                           <div className="row">
                             <div className="col-sm-6 village_util_btn">
-                              <p onClick={this.funDisUtil.bind(this)}>District Utilities</p>
+                              <p id = "distactive" onClick={this.funDisUtil.bind(this)}>District Utilities</p>
                             </div>
                             <div className="col-sm-6 village_analytics_btn">
-                              <p onClick={this.funDistana.bind(this)}>District Analytics</p>
+                              <p id = "distinactive" onClick={this.funDistana.bind(this)}>District Analytics</p>
                             </div>
                           </div>
                         </div>
@@ -540,10 +564,10 @@ funtalukautil(e){
                         <div className="thumb_foo">
                           <div className="row">
                             <div className="col-sm-6 village_util_btn">
-                              <p onClick={this.funtalukautil.bind(this)}>Taluka Utilities</p>
+                              <p id="talukactive" onClick={this.funtalukautil.bind(this)}>Taluka Utilities</p>
                             </div>
                             <div className="col-sm-6 village_analytics_btn">
-                              <p onClick={this.funtalukana.bind(this)}>Taluka Analytics</p>
+                              <p id="talukinactive" onClick={this.funtalukana.bind(this)}>Taluka Analytics</p>
                             </div>
                           </div>
                         </div>
