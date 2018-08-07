@@ -98,8 +98,8 @@ funtalukautil(e){
         <Navbar className="sitenav">
             <Navbar.Header>
               <Navbar.Brand className="brand_image">
-                <a href="#home">
-                  <img src="image/site_logo.png" alt="Logo"/>
+                <a href="http://localhost:3000/">
+                  <img src="image/Website-logo.png" alt="Logo"/>
                 </a>
               </Navbar.Brand>
               <Navbar.Toggle />
@@ -132,7 +132,7 @@ funtalukautil(e){
           <div className="container">
             <div className="row">
               <div className="col-sm-8 col-md-8 col-lg-8 village_body">
-                <h1>Village Trekk</h1>
+                <h1>VillageTrekk</h1>
                 <h4>
                   The Simplest Way To Manage Your Village Utilities.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                 </h4>
